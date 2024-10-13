@@ -1,0 +1,2 @@
+pip freeze > requirements.txt
+./darknet detector train data/obj6.data yolov3-tiny6.cfg darknet53.conv.74
